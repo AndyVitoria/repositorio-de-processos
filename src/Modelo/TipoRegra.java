@@ -15,4 +15,5 @@ public class TipoRegra {
 	public void setDescricao(String descricao) {
 		this.descricao = descricao;
 	}
+	
 }

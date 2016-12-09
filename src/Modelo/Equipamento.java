@@ -5,6 +5,13 @@ public class Equipamento extends TipoRecurso{
 	private int codigoTipo;
 	private String descricao;
 	
+	Equipamento(int i, String s){
+		codigoTipo = i;
+		descricao = s;
+	}
+	
+	
+	
 	public void setCodigoTipo(int i)
 	{
 		codigoTipo = i;

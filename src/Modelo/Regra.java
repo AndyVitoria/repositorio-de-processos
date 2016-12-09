@@ -25,7 +25,7 @@ public class Regra {
 	}
 	
 	public ConjuntoObjFluxo getEsquerdo(){
-		return ladoEsquerdo = e;
+		return ladoEsquerdo;
 		
 	}
 	

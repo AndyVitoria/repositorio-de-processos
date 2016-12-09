@@ -2,22 +2,22 @@ package entidade;
 
 import java.util.ArrayList;
 
-public class Dominio {
+public class ConjuntoObjFluxo {
 	private ArrayList<ObjetodeFluxo> lst;
 	
-	public Dominio(){
+	public ConjuntoObjFluxo(){
 		lst = new ArrayList(10);
 	}
 	
-	public void setDominio(ObjetodeFluxo o){
+	public void setCOF(ObjetodeFluxo o){
 		lst.add(o);
 	}
 	
-	public void setDominio(ObjetodeFluxo o, int i){
+	public void setCOF(ObjetodeFluxo o, int i){
 		lst.add(i, o);
 	}
 	
-	public ObjetodeFluxo getDominio(int i){
+	public ObjetodeFluxo getCOF(int i){
 		if (i < lst.size() && i > -1) {
 			return lst.get(i);
 		}
